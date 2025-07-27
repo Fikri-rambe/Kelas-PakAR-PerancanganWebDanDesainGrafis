@@ -1,0 +1,93 @@
+/* === Global Style === */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f6fa;
+  margin: 0;
+  padding: 20px;
+  color: #2c3e50;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #34495e;
+}
+
+/* === Link Default (tidak seperti tombol) === */
+a {
+  color: #0066cc;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === Tombol Umum === */
+.btn {
+  color: #ffffff;
+  background-color: #3498db;
+  padding: 8px 14px;
+  border-radius: 5px;
+  margin-right: 6px;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+/* === Tombol Tambah Produk (Hijau) === */
+.add-button {
+  background-color: #2ecc71;
+}
+
+.add-button:hover {
+  background-color: #27ae60;
+}
+
+/* === Table Style === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  vertical-align: top;
+}
+
+th {
+  background-color: #2980b9;
+  color: white;
+}
+
+td img {
+  max-width: 70px;
+  height: auto;
+  border-radius: 5px;
+}
+
+input[type="text"], select {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    padding: 6px 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2980b9;
+}
