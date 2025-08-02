@@ -36,7 +36,7 @@ mahkota_kaki/
 │ ├── chat_detail.php
 │ └── ...
 │
-├── customer/ # Halaman customer
+├── customer/ 
 │ ├── index.php
 │ ├── chat.php
 │ ├── beli.php
@@ -45,17 +45,17 @@ mahkota_kaki/
 │ └── ...
 │
 ├── config/
-│ └── koneksi.php # File koneksi ke database
+│ └── koneksi.php 
 │
 ├── assets/
 │ ├── css/
 │ └── img/
 │
 ├── database/
-│ └── mahkotakaki.sql # File struktur database
+│ └── mahkotakaki.sql 
 │
-├── kirim_pesan.php # Handler chat customer-admin
-└── index.php # Landing page pemilih role
+├── kirim_pesan.php 
+└── index.php 
 
 
 
